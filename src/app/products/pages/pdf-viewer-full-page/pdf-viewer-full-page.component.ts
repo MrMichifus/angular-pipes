@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './pdf-viewer-full-page.component.css'
 })
 export class PdfViewerFullPageComponent {
-  public pdfSrc: string = 'assets/statics/test.pdf';
+  public pdfSrc: string = 'assets/statics/test-UCV.pdf';
 }

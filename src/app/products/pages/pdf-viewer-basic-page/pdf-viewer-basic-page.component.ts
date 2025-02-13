@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './pdf-viewer-basic-page.component.css'
 })
 export class PdfViewerBasicPageComponent {
-  public pdfSrc = 'assets/statics/test.pdf';
+  public pdfSrc: string = 'http://localhost:4200/assets/statics/test-UCV.pdf';
 }

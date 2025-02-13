@@ -38,8 +38,18 @@ export class MenuComponent implements OnInit {
         items: [
           {
             label: 'Prueba PDF Viewer Básico',
-            icon: 'pi pi-cog',
+            icon: 'pi pi-shopping-bag',
             routerLink: 'pdf-viewer-basic'
+          },
+          {
+            label: 'Prueba PDF Viewer Avanzado',
+            icon: 'pi pi-shopping-cart',
+            routerLink: 'pdf-viewer-advanced'
+          },
+          {
+            label: 'Custom Pipes',
+            icon: 'pi pi-spin pi-apple',
+            routerLink: 'order'
           }
         ]
       }
